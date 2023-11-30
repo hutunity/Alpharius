@@ -1,0 +1,142 @@
+
+body {
+	font-family: Arial, San-Serif;
+	font-size: 110%;
+    background-color: #FEFEFE; 
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+
+header {
+	padding: 50px 0;
+	background-color:#FEFEFE;
+}
+h1,h2 {
+	color:  #34BBFF;
+	text-align: center;
+}
+nav {
+	background-color: #FEFEFE;
+	border-color: #FEFEFE;
+	min-height: 64px;
+}
+nav li {
+	float: left;
+	width: 100px;
+}
+nav a {
+	display: block;
+	color: #FEFEFE;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+nav li a:hover {
+	color: #FEFEFE;
+	background-color:#34BBFF;
+	
+}
+p {
+	font-size: 16px;
+	line-height: 1.3em;
+margin-top: 0.1em;
+margin-bottom: 0;
+color: #34BBFF;
+text-align: center;
+font-family: Arial, San-Serif;
+	font-size: 120%;
+    background-color: #FEFEFE; 
+	background-image: url("images/media-wallpaper-full5.jpg");
+}
+footer {
+	background-color: #FEFEFE;
+	color:  #34BBFF;
+	padding: 20px 0;
+	margin-top: 30px;
+	
+}
+
+.container{
+	display:flex;
+	flex-direction: row;
+	background-color: #FEFEFE;
+	justify-content: center;
+}
+.container li{
+	flex-grow: 1;
+	margin-top: 5px;
+	margin-bottom: 2px;
+    margin-right: 8px;
+	background-color: #0AA9FF;
+	list-style-type: none;
+	font-size: 50px;
+}
+
+.img-container li{
+	display: inline-block;
+	width: 32%;
+	padding: 10px;
+	
+}
+.img-container {
+	text-align: center;
+	margin-top: 42px;
+	width: 100%;
+}
+.img-container img{
+	width: 80%;
+	display: inline-block;
+	transition: .25s;
+	transform: scale(0.95);
+	transition: .3s;
+	max-width: 100%;
+}
+.img-container ul li{
+	list-style-type: none;
+
+}
+.img-container img:hover {
+	transform: scale(1.2);
+}
+
+
+.multimedia {
+	overflow: auto;
+	text-align: center;
+}
+.multimedia-video {
+	display: inline-block;
+    padding-left: 5px;
+	padding-right: 5px;
+	width: 33.33%;
+	box-sizing: border-box;
+}
+
+.gif-container li{
+	display: inline-block;
+	width: 32%;
+	padding: 10px;
+	
+}
+.gif-container {
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+}
+.gif-container img{
+	width: 40%;
+	display: inline-block;
+	transition: .25s;
+}
+.gif-container ul li{
+	list-style-type: none;
+}
+
